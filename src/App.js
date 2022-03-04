@@ -3,7 +3,10 @@ import Game from "./components/Game";
 
 function App() {
   return (
-    <div><Game /></div>
+    <div>
+      <div className="title">Play Tic-Tac-Toe!</div>
+      <Game />
+      </div>
   );
 }
 

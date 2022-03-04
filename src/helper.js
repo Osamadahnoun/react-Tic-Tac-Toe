@@ -9,14 +9,17 @@ export function calculateWinner(squares) {
     [0, 4, 8],
     [2, 4, 6]
 ];
-    for (let i = 0; i < lines. Length; i++) {
+    for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i]; 
-    if (squares[a] && squares [a] === squares [b] && squares [a] === squares [c]) {
-    return squares [a];
+    if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+    return squares[a];
     }
 }
     return null;
 }
-    const squares = [ null, null, null, 'X', 'X', 'O',
-    null, null, null ];
-   
+
+
+    const squares = [ 
+        null, null, null, 
+        'X', 'X', 'O',
+         null, null, null ];   
