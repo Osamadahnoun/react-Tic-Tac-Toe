@@ -3,7 +3,7 @@
 ## Description
 This is a tic-tac-toe game created with React.js. It has a special history feature.
 
-## Screensot
+## Screenshot
 ![screenshot](./src/images/screenshot.png)
 
 ## Link to deployed application
